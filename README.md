@@ -1,13 +1,13 @@
 # BANK LOAN DATA ANALYSIS USING SQL AND POWER BI
 
 # SnapShots
-# 1. SUMMARY LOAN PORTFOLIO PERFORMANCE DASHBOARD
+# 1. Summary Loan Portfolio Performance Dashboard
 ![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-using-SQL-Power-B/blob/main/Summary.png)
 
-# 2. LOAN TRENDS & BORROWER INSIGHTS
+# 2. Loan Trends & Borrower Insights
 ![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-using-SQL-Power-B/blob/main/Overview.png)
 
-# 3. DETAILED LOAN PERFORMANCE ANALYSIS
+# 3. Detailed Loan Performance Analysis
 ![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-using-SQL-Power-B/blob/main/Details.png) 
 
 ## Overview
