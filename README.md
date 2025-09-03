@@ -1,6 +1,7 @@
 # Bank-Loan-Data-Analysis-using-SQL-Power-B
 
 # SnapShots
+# LOAN PORTFOLIO PERFORMANCE DASHBOARD
 ![](https://github.com/tktejas117/-BlinkIt-Grocery-Dataset/blob/main/image.jpg)
 
 ## Overview
