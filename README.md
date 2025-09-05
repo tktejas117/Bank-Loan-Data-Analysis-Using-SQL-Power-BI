@@ -196,7 +196,7 @@ WHERE MONTH(issue_date) = 11
 │
 ├── README.md
 ├── - **/sql_queries/**
-│ ├── - [Solutions of Business problems.sql] (./sql%20quiries/Solutions%20of%20Business%20problems.sql)
+│ ├── - [Solutions of Business problems.sql] (https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/sql%20quiries/Solutions%20of%20Business%20problems.sql)
 │ ├── dashboard3_revenue.sql
 │ └── dashboard4_customer.sql
 
