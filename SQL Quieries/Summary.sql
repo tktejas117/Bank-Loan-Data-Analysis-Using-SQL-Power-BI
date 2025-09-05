@@ -24,7 +24,7 @@ WHERE MONTH(issue_date) = 11
 -- 2.Total Funded Amount: 
 -- Total amount of funds disbursed as loans is crucial. 
 -- MTD Total Funded Amount
---Analyse the Month-over-Month (MoM) changes in this metric.
+-- Analyse the Month-over-Month (MoM) changes in this metric.
 
 -- Total Funded Amount
 SELECT SUM(loan_amount) AS Total_Funded_Amount FROM bank_loan_data
@@ -38,7 +38,7 @@ SELECT SUM(loan_amount) AS Total_Funded_Amount FROM bank_loan_data
 WHERE MONTH(issue_date) = 11
  
 
--- Total Amount Received: 
+-- 3. Total Amount Received: 
 -- Total amount received from borrowers
 -- Analyse the Month-to-Date (MTD) Total Amount Received 
 -- observe the Month-over-Month (MoM) changes.
@@ -54,7 +54,7 @@ WHERE MONTH(issue_date) = 12
 SELECT SUM(total_payment) AS Total_Amount_Collected FROM bank_loan_data
 WHERE MONTH(issue_date) = 11
  
--- Average Interest Rate: 
+-- 4. Average Interest Rate: 
 -- Calculating the average interest rate across all loans MTD
 -- Monitoring the Month-over-Month (MoM) 
 
@@ -70,7 +70,7 @@ SELECT AVG(int_rate)*100 AS PMTD_Avg_Int_Rate FROM bank_loan_data
 WHERE MONTH(issue_date) = 11
  
 
--- Average Debt-to-Income Ratio (DTI): 
+-- 5. Average Debt-to-Income Ratio (DTI): 
 -- Evaluating the average DTI for our borrowers 
 -- compute the average DTI for all loans, MTD
 -- Track Month-over-Month (MoM) fluctuations.
@@ -87,7 +87,7 @@ SELECT AVG(dti)*100 AS PMTD_Avg_DTI FROM bank_loan_data
 WHERE MONTH(issue_date) = 11
 
 
--- Good Loan v Bad Loan KPI’s
+-- Good Loan v Bad Loan KPIâ€™s
 -- Good Loan:
 
 
@@ -154,5 +154,6 @@ SELECT
 FROM bank_loan_data
 WHERE MONTH(issue_date) = 12 
 GROUP BY loan_status
+
 
 
