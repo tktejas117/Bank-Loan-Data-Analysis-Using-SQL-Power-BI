@@ -193,13 +193,15 @@ WHERE MONTH(issue_date) = 11
 ```
 
 ## 📂 Project Structure
-``` /bank-loan-kpi-project
+```
+/bank-loan-kpi-project
 │
 ├── README.md
-└── sql_queries/
-├── SUMMARY.sql
-├── OVERVIEW.sql
-└── DETAILED.sql
+├── /Sql Queries/
+│     ├── Dashboard1_Summary.sql
+│     ├── Dashboard1_Overview.sql
+│     └── Dashboard1_Detailed.sql
+
 ```
 
 ## Findings and Conclusion
