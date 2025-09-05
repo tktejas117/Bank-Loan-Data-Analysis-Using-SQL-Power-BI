@@ -195,8 +195,8 @@ WHERE MONTH(issue_date) = 11
 ## 📂 Project Structure
 │
 ├── README.md
-├── /sql_queries/
-│ ├── * []dashboard2_risk.sql 
+├── - **/sql_queries/**
+│ ├── - [Solutions of Business problems.sql] (./sql%20quiries/Solutions%20of%20Business%20problems.sql)
 │ ├── dashboard3_revenue.sql
 │ └── dashboard4_customer.sql
 
