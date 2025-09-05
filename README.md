@@ -2,7 +2,12 @@
 
 # SnapShots
 # 1. Summary Loan Portfolio Performance Dashboard
+To visualize the SQL insights, interactive dashboards were created in Power BI. These dashboards provide a clear view of loan applications, repayments, risk distribution, and portfolio performance.
 ![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Summary.png)
+
+- Shows Total Loan Applications, Funded Amount, Amount Received, Average Interest Rate, and DTI.
+- Provides Good Loan vs Bad Loan distribution with percentages, funded amounts, and repayment status.
+- Loan Status breakdown (Fully Paid, Current, Charged Off) gives a snapshot of portfolio health.
 
 # 2. Loan Trends & Borrower Insights
 ![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Overview.png)
@@ -20,28 +25,6 @@ This project involves a comprehensive analysis of Bank Loan Data using SQL and P
 - Study borrower demographics such as employment length, home ownership, purpose, and regions.
 - Identify risk patterns using KPIs like **DTI (Debt-to-Income Ratio)** and **Interest Rate**.
 - Provide interactive dashboards for decision-making using **Power BI**.
-  
-## Dataset
-
-The data for this project is sourced from the Kaggle dataset:
-
-- **Dataset Link:** [Bank Loan Dataset](https://www.kaggle.com/datasets/nezukokamaado/auto-loan-dataset)
-
-## Project Structure
-The project repository follows a standard structure for organizing the code and related files:
-
-**BI Project**: This directory includes Power BI project Dashboards.
-
-**Data**: This directory contains the dataset files used for the analysis.
-
-**README.md**: This file provides an overview of the project, its objectives, and the project structure.
-
-**SNAPSHOTS**: This directory contains Dashboards Snapshots.
-
-
-
-
-
 
 ## 📂 Project Structure
 ```
@@ -54,16 +37,39 @@ The project repository follows a standard structure for organizing the code and 
 │     └── Overview.sql
 
 ```
+  
+## Dataset
+
+The data for this project is sourced from the Kaggle dataset:
+
+- **Dataset Link:** [Bank Loan Dataset](https://www.kaggle.com/datasets/nezukokamaado/auto-loan-dataset)
+
+## Repository Overview
+The project repository follows a standard structure for organizing the code and related files:
+
+**BI Project**: This directory includes Power BI project Dashboards.
+
+**Data**: This directory contains the dataset files used for the analysis.
+
+**README.md**: This file provides an overview of the project, its objectives, and the project structure.
+
+**SNAPSHOTS**: This directory contains Dashboards Snapshots. 
+
+**SQL Queries**: In This directory Summary,Overview and Problems questions files are Attached.
+
+
+## SOFTWARE Requirement
+
+MS OFFICE/ EXCEL: VERSION 2021
+MS SQL SERVER: 19.0
+SQL SERVER MANAGEMENT STUDIO – 19.0.20209.0
+POWER BI: JUNE 2023 Version 
+
+
+
 
 ## Findings and Conclusion
 
-- **Sales performace:** Larger outlets contribute the highest percentage of sales.
-- **Customer Preferance:** Regular items perform better than Low Fat products.
-- **Category Insights:** Categories like Dairy, Snacks, and Beverages dominate sales.
-- **Outlet Insights:** Older outlets and those in higher-tier locations generate more revenue.
-- **Cutomer Feedback:** Ratings remain steady across outlets, but item visibility impacts performance.
-
-This analysis provides a comprehensive view of Blinkit’s sales data, helping optimize inventory planning, outlet expansion, and marketing strategies.
 
 
 
