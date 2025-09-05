@@ -69,25 +69,25 @@ The data for this project is sourced from the Kaggle dataset:
 ## Repository Overview
 The project repository follows a standard structure for organizing the code and related files:
 
-**BI Project**: This directory includes Power BI project Dashboards.
+- **BI Project**: This directory includes Power BI project Dashboards.
 
-**Data**: This directory contains the dataset files used for the analysis.
+- **Data**: This directory contains the dataset files used for the analysis.
 
-**README.md**: This file provides an overview of the project, its objectives, and the project structure.
+- **README.md**: This file provides an overview of the project, its objectives, and the project structure.
 
-**SNAPSHOTS**: This directory contains Dashboards Snapshots. 
+- **SNAPSHOTS**: This directory contains Dashboards Snapshots. 
 
-**SQL Queries**: In This directory Summary,Overview and Problems questions files are Attached.
+- **SQL Queries**: In This directory Summary,Overview and Problems questions files are Attached.
 
 
 ## SOFTWARE Requirement
 
-MS OFFICE/ EXCEL: VERSION 2021
+``` MS OFFICE/ EXCEL: VERSION 2021
 MS SQL SERVER: 19.0
 SQL SERVER MANAGEMENT STUDIO – 19.0.20209.0
 POWER BI: JUNE 2023 Version 
 
-
+```
 
 
 ## Conclusion
@@ -103,5 +103,5 @@ This project not only provided deep insights into the bank’s loan portfolio pe
 
 
 
-- **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/tejas-kumar-s)
+**LinkedIn**: [Follow Me](https://www.linkedin.com/in/tejas-kumar-s)
 
