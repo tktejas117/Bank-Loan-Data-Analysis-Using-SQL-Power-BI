@@ -6,9 +6,6 @@
 
 
 -- 1. Total Loan Applications: 
--- Calculate the total number of loan applications received during a specified period. 
--- Monitor the Month-to-Date (MTD) Loan Applications 
--- Track changes Month-over-Month (MoM).
 
 SELECT COUNT(id) AS Total_Applications FROM bank_loan_data
  
@@ -22,9 +19,7 @@ WHERE MONTH(issue_date) = 11
  
 
 -- 2.Total Funded Amount: 
--- Total amount of funds disbursed as loans is crucial. 
--- MTD Total Funded Amount
--- Analyse the Month-over-Month (MoM) changes in this metric.
+
 
 -- Total Funded Amount
 SELECT SUM(loan_amount) AS Total_Funded_Amount FROM bank_loan_data
@@ -39,9 +34,7 @@ WHERE MONTH(issue_date) = 11
  
 
 -- 3. Total Amount Received: 
--- Total amount received from borrowers
--- Analyse the Month-to-Date (MTD) Total Amount Received 
--- observe the Month-over-Month (MoM) changes.
+
 
 -- Total Amount Received
 SELECT SUM(total_payment) AS Total_Amount_Collected FROM bank_loan_data
@@ -55,8 +48,7 @@ SELECT SUM(total_payment) AS Total_Amount_Collected FROM bank_loan_data
 WHERE MONTH(issue_date) = 11
  
 -- 4. Average Interest Rate: 
--- Calculating the average interest rate across all loans MTD
--- Monitoring the Month-over-Month (MoM) 
+
 
 Average Interest Rate
 SELECT AVG(int_rate)*100 AS Avg_Int_Rate FROM bank_loan_data
@@ -71,9 +63,7 @@ WHERE MONTH(issue_date) = 11
  
 
 -- 5. Average Debt-to-Income Ratio (DTI): 
--- Evaluating the average DTI for our borrowers 
--- compute the average DTI for all loans, MTD
--- Track Month-over-Month (MoM) fluctuations.
+
 
 Avg DTI
 SELECT AVG(dti)*100 AS Avg_DTI FROM bank_loan_data
@@ -154,6 +144,7 @@ SELECT
 FROM bank_loan_data
 WHERE MONTH(issue_date) = 12 
 GROUP BY loan_status
+
 
 
 
