@@ -12,6 +12,9 @@ To visualize the SQL insights, interactive dashboards were created in Power BI. 
 
 # 2. Loan Trends & Borrower Insights
 
+
+![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Overview.png)
+
 - Highlights loan application trends by month to track growth.
 - Geographic analysis by state identifies regions with high lending activity.
 - Demographics & categories:
@@ -19,16 +22,14 @@ To visualize the SQL insights, interactive dashboards were created in Power BI. 
 - Loan applications by Purpose (e.g., debt consolidation, credit card, small business).
 - Distribution by Loan Term and Home Ownership.
 
-![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Overview.png)
-
 # 3. Detailed Loan Performance Analysis
+
+![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Details.png) 
 
 - Provides a grid view of loan-level information (ID, Purpose, Ownership, Grade, Issue Date, Funded Amount, Interest Rate, Installments, Amount Received).
 - Useful for deep dives into individual loans and borrower profiles.
 - Supports filters by State, Grade, Loan Status, and Good vs Bad Loan for flexible analysis.
 
-
-![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Details.png) 
 
 ## Overview
 This project involves a comprehensive analysis of Bank Loan Data using SQL and Power BI. The goal is to extract valuable insights into loan applications, funded amounts, repayments, borrower risk profiles, and trends. The README provides the project’s **objectives, dataset details, project structure, SQL KPIs, dashboards, and key findings. 
