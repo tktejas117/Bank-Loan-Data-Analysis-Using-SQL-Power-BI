@@ -28,7 +28,7 @@ This project involves a comprehensive analysis of Blinkit’s grocery sales data
 
 The data for this project is sourced from the Kaggle dataset:
 
-- **Dataset Link:** [Grocery Dataset](https://www.kaggle.com/datasets/arunkumaroraon/blinkit-grocery-dataset)
+- **Dataset Link:** [Bank Loan Dataset](https://www.kaggle.com/datasets/nezukokamaado/auto-loan-dataset)
 
 ## Project Structure
 The project repository follows a standard structure for organizing the code and related files:
@@ -44,163 +44,17 @@ The project repository follows a standard structure for organizing the code and 
 
 
 
-## Key Performance Indicators (KPIs) Requirements:
 
-## DASHBOARD 1: SUMMARY 
-
-### 1. Total Loan Applications
-
-```sql
-SELECT COUNT(id) AS Total_Applications FROM bank_loan_data
-```
-
-###  MTD Loan Applications
-
-```sql
-
-SELECT COUNT(id) AS Total_Applications FROM bank_loan_data
-WHERE MONTH(issue_date) = 12
-
-
-```
-
-###  PMTD Loan Applications
-
-```sql
-
-SELECT COUNT(id) AS Total_Applications FROM bank_loan_data
-WHERE MONTH(issue_date) = 11
-
-
-```
-
-### 2. Total Funded Amount
-
-```sql
-SELECT SUM(loan_amount) AS Total_Funded_Amount FROM bank_loan_data
-
-```
-
-### 5. MTD Total Funded Amount
-
-```sql
-
-SELECT SUM(loan_amount) AS Total_Funded_Amount FROM bank_loan_data
-WHERE MONTH(issue_date) = 12
-
-
-```
-
-### 6. PMTD Total Funded Amount
-
-```sql
-
-SELECT SUM(loan_amount) AS Total_Funded_Amount FROM bank_loan_data
-WHERE MONTH(issue_date) = 11
-
-```
-
-### 7. Total Amount Received
-
-```sql
-
-SELECT SUM(total_payment) AS Total_Amount_Collected FROM bank_loan_data
-
-```
-
-### 8. MTD Total Amount Received
-
-```sql
-
-SELECT SUM(total_payment) AS Total_Amount_Collected FROM bank_loan_data
-WHERE MONTH(issue_date) = 12
-
-```
-
-### 9. PMTD Total Amount Received
-
-```sql
-
-SELECT SUM(total_payment) AS Total_Amount_Collected FROM bank_loan_data
-WHERE MONTH(issue_date) = 11
-
-```
-
-### 10.Average Interest Rate
-return top 5 year with highest avg content release!
-
-```sql
-SELECT AVG(int_rate)*100 AS Avg_Int_Rate FROM bank_loan_data
-
-```
-
-
-### 11. MTD Average Interest
-
-```sql
-
-SELECT AVG(int_rate)*100 AS MTD_Avg_Int_Rate FROM bank_loan_data
-WHERE MONTH(issue_date) = 12
-
-```
-
-### 11. MTD Average Interest
-
-```sql
-
-SELECT AVG(int_rate)*100 AS MTD_Avg_Int_Rate FROM bank_loan_data
-WHERE MONTH(issue_date) = 12
-
-```
-### 12. PMTD Average Interest
-
-```sql
-
-SELECT AVG(int_rate)*100 AS PMTD_Avg_Int_Rate FROM bank_loan_data
-WHERE MONTH(issue_date) = 11
-
-```
-### 13. Average DTI
-
-```sql
-
-SELECT AVG(dti)*100 AS Avg_DTI FROM bank_loan_data
-
-```
-### 14. MTD Avg DTI
-
-```sql
-
-SELECT AVG(dti)*100 AS MTD_Avg_DTI FROM bank_loan_data
-WHERE MONTH(issue_date) = 12
-```
-
-### 15. MTD Average Interest
-
-```sql
-
-SELECT AVG(int_rate)*100 AS MTD_Avg_Int_Rate FROM bank_loan_data
-WHERE MONTH(issue_date) = 12
-
-```
-### 16. PMTD Avg DTI
-
-```sql
-
-SELECT AVG(dti)*100 AS PMTD_Avg_DTI FROM bank_loan_data
-WHERE MONTH(issue_date) = 11
-
-```
 
 ## 📂 Project Structure
 ```
-/bank-loan-kpi-project
+/Bank-Loan-Data-Analysis-Using-SQL-Power-BI
 │
 ├── README.md
 ├── /Sql Queries/
-│     ├── Dashboard1_Summary.sql
-│     ├── Dashboard1_Overview.sql
-│     └── Dashboard1_Detailed.sql
+│     ├── KPI Questions.sql
+│     ├── Summary.sql
+│     └── Overview.sql
 
 ```
 
@@ -215,11 +69,6 @@ WHERE MONTH(issue_date) = 11
 This analysis provides a comprehensive view of Blinkit’s sales data, helping optimize inventory planning, outlet expansion, and marketing strategies.
 
 
-### Stay Updated and Join the Community
-
-For more content on SQL, data analysis, and other data-related topics, make sure to follow me on social media and join our community:
-
 
 - **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/tejas-kumar-s)
 
-Thank you for your support, and I look forward to connecting with you!
