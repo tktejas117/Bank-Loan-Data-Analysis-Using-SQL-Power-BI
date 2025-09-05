@@ -11,7 +11,7 @@
 ![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Details.png) 
 
 ## Overview
-This project involves a comprehensive analysis of Blinkit’s grocery sales dataset using SQL.The goal is to extract valuable insights and answer various business questions based on sales, items, outlets, and customer ratings.The following README provides the project’s objectives, business problems, SQL solutions, findings, and conclusions.
+This project involves a comprehensive analysis of Bank Loan Data using SQL and Power BI. The goal is to extract valuable insights into loan applications, funded amounts, repayments, borrower risk profiles, and trends. The README provides the project’s **objectives, dataset details, project structure, SQL KPIs, dashboards, and key findings. 
 ## Objectives
 
 -- Analyze overall sales performance across items and outlets.
