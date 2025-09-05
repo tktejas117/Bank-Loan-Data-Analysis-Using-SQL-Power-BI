@@ -192,6 +192,15 @@ WHERE MONTH(issue_date) = 11
 
 ```
 
+## 📂 Project Structure
+│
+├── README.md
+├── /sql_queries/
+│ ├── dashboard2_risk.sql ![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Summary.png)
+│ ├── dashboard3_revenue.sql
+│ └── dashboard4_customer.sql
+
+
 ## Findings and Conclusion
 
 - **Sales performace:** Larger outlets contribute the highest percentage of sales.
