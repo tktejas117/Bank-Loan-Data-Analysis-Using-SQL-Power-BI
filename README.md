@@ -2,13 +2,13 @@
 
 # SnapShots
 # 1. Summary Loan Portfolio Performance Dashboard
-![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-using-SQL-Power-B/blob/main/Summary.png)
+![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Summary.png)
 
 # 2. Loan Trends & Borrower Insights
-![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-using-SQL-Power-B/blob/main/Overview.png)
+![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Overview.png)
 
 # 3. Detailed Loan Performance Analysis
-![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-using-SQL-Power-B/blob/main/Details.png) 
+![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Details.png) 
 
 ## Overview
 This project involves a comprehensive analysis of Blinkit’s grocery sales dataset using SQL.The goal is to extract valuable insights and answer various business questions based on sales, items, outlets, and customer ratings.The following README provides the project’s objectives, business problems, SQL solutions, findings, and conclusions.
