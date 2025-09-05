@@ -14,16 +14,13 @@
 This project involves a comprehensive analysis of Bank Loan Data using SQL and Power BI. The goal is to extract valuable insights into loan applications, funded amounts, repayments, borrower risk profiles, and trends. The README provides the project’s **objectives, dataset details, project structure, SQL KPIs, dashboards, and key findings. 
 ## Objectives
 
--- Analyze overall sales performance across items and outlets.
-
--- Identify top-performing categories, brands, and outlet types.
-
--- Compare sales contribution by fat content, outlet size, and outlet location.
-
--- Measure customer satisfaction through ratings and visibility.
-
--- Categorize items based on product descriptions.
-
+- Analyze loan applications and funding trends across time.
+- Track repayment performance and overall portfolio health.
+- Evaluate **Good Loan vs Bad Loan** performance metrics.
+- Study borrower demographics such as employment length, home ownership, purpose, and regions.
+- Identify risk patterns using KPIs like **DTI (Debt-to-Income Ratio)** and **Interest Rate**.
+- Provide interactive dashboards for decision-making using **Power BI**.
+  
 ## Dataset
 
 The data for this project is sourced from the Kaggle dataset:
