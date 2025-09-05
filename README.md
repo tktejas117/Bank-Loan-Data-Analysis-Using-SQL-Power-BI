@@ -30,6 +30,18 @@ The data for this project is sourced from the Kaggle dataset:
 
 - **Dataset Link:** [Grocery Dataset](https://www.kaggle.com/datasets/arunkumaroraon/blinkit-grocery-dataset)
 
+## Project Structure
+The project repository follows a standard structure for organizing the code and related files:
+
+**BI Project**: This directory includes Power BI project Dashboards.
+
+**Data**: This directory contains the dataset files used for the analysis.
+
+**README.md**: This file provides an overview of the project, its objectives, and the project structure.
+
+**SNAPSHOTS**: This directory contains Dashboards Snapshots.
+
+
 ## Schema
 
 ```sql
