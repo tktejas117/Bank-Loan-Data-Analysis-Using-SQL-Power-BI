@@ -3,6 +3,7 @@
 # SnapShots
 # 1. Summary Loan Portfolio Performance Dashboard
 To visualize the SQL insights, interactive dashboards were created in Power BI. These dashboards provide a clear view of loan applications, repayments, risk distribution, and portfolio performance.
+
 ![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Summary.png)
 
 - Shows Total Loan Applications, Funded Amount, Amount Received, Average Interest Rate, and DTI.
@@ -10,9 +11,23 @@ To visualize the SQL insights, interactive dashboards were created in Power BI. 
 - Loan Status breakdown (Fully Paid, Current, Charged Off) gives a snapshot of portfolio health.
 
 # 2. Loan Trends & Borrower Insights
+
+- Highlights loan application trends by month to track growth.
+- Geographic analysis by state identifies regions with high lending activity.
+- Demographics & categories:
+- Loan applications by Employee Length (borrower stability).
+- Loan applications by Purpose (e.g., debt consolidation, credit card, small business).
+- Distribution by Loan Term and Home Ownership.
+
 ![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Overview.png)
 
 # 3. Detailed Loan Performance Analysis
+
+- Provides a grid view of loan-level information (ID, Purpose, Ownership, Grade, Issue Date, Funded Amount, Interest Rate, Installments, Amount Received).
+- Useful for deep dives into individual loans and borrower profiles.
+- Supports filters by State, Grade, Loan Status, and Good vs Bad Loan for flexible analysis.
+
+
 ![](https://github.com/tktejas117/Bank-Loan-Data-Analysis-Using-SQL-Power-BI/blob/main/Snapshots/Details.png) 
 
 ## Overview
@@ -32,9 +47,15 @@ This project involves a comprehensive analysis of Bank Loan Data using SQL and P
 │
 ├── README.md
 ├── /Sql Queries/
-│     ├── KPI Questions.sql
-│     ├── Summary.sql
-│     └── Overview.sql
+│ ├── KPI_Questions.sql
+│ ├── Summary.sql
+│ └── Overview.sql
+├── /BI Project/
+│ └── Bank Loan Power BI Dashboards
+├── /Data/
+│ └── Bank_Loan_Dataset.csv
+└── /Snapshots/
+└── Dashboard_Images.png
 
 ```
   
@@ -68,8 +89,16 @@ POWER BI: JUNE 2023 Version
 
 
 
-## Findings and Conclusion
+## Conclusion
+This project not only provided deep insights into the bank’s loan portfolio performance, but also strengthened my SQL and Power BI skills.
 
+- Using SQL, I extracted, cleaned, and structured the data to calculate critical KPIs like Loan Applications, Funded Amount, Amount Received, Interest Rate, and DTI.
+
+- In Power BI, I applied data modelling, DAX, Power Query, and time intelligence functions to create interactive dashboards.
+
+- Designed visuals, KPIs, and navigation for users to explore trends, borrower insights, and loan performance effectively.
+
+- Overall, the project demonstrates how data-driven analysis can help financial institutions monitor loan health, minimize risk, and make informed business decisions.
 
 
 
